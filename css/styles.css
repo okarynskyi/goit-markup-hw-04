@@ -346,7 +346,7 @@ img {
   justify-content: space-between;
 }
 
-.clients-list-item {
+.clients-list-link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -358,17 +358,17 @@ img {
   cursor: pointer;
 }
 
-.clients-list-item:hover {
+.clients-list-link:hover,
+.clients-list-link:focus {
   border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
 }
 
 .clients-list-icon {
   fill: #afb1b8;
 }
 
-.clients-list-item:hover .clients-list-icon,
-.clients-list-item:focus .clients-list-icon {
+.clients-list-link:hover .clients-list-icon,
+.clients-list-link:focus .clients-list-icon {
   fill: var(--accent-color);
 }
 
