@@ -358,6 +358,10 @@ img {
   cursor: pointer;
 }
 
+.clients-list-item {
+  cursor: pointer;
+}
+
 .clients-list-link:hover,
 .clients-list-link:focus {
   border: 1px solid var(--accent-color);
